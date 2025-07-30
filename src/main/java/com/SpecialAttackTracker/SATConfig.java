@@ -5,7 +5,7 @@ import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
 @ConfigGroup("SpecialAttackTracker")
-public interface ExampleConfig extends Config
+public interface SATConfig extends Config
 {
 	@ConfigItem(
 		keyName = "greeting",
